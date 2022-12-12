@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fav Icon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+    <!-- Css -->
+    <link rel="stylesheet" href="Css/stylesheet.css">
+
+    <!-- Goggle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Tittle -->
+    <title>University of the Punjab | Blog</title>
+</head>
+
+<body>
+    <!-- Header -->
+
+    <section class="sub-header">
+        <!-- NavBar  -->
+        <nav>
+            <a href="index.html"><img src="images/main-logo.png"></a>
+            <div id="nav-links">
+                <ul id="mobilemenu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <i class="bi bi-x-lg" onclick="closemenu()"></i>
+                </ul>
+                <i class="bi bi-menu-button-wide-fill" id="menubars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+        <h1 id="main-heading">Our Certificates & Online Programs For 2022</h1>
+    </section>
+    <!-- NavBar End -->
+
+    <!---- Blog page Content ----->
+
+    <section class="blog-content">
+        <div class="row">
+
+            <!-- Blog Left -->
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificates & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus deleniti illum id a laborum
+                    provident, velit veniam? Tenetur sed magni, maiores itaque nemo delectus nobis ea nulla repudiandae
+                    laboriosam culpa!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, fugiat amet suscipit mollitia
+                    numquam quidem excepturi quam beatae voluptates, veniam, unde eum voluptate dolores ex consequatur
+                    recusandae nihil quaerat enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                    beatae quod! Quo eaque aspernatur natus sed veritatis rerum ut nisi similique. Aperiam ullam ipsam,
+                    ipsum magni ad saepe doloribus id.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sit quia ad ratione itaque tempore
+                    adipisci quibusdam libero? Dolorum eaque, aliquid consequatur tenetur maiores neque quod laudantium!
+                    Sequi, labore commodi.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum modi accusantium quam odio at, minima,
+                    esse et asperiores laborum tempora recusandae ratione iste placeat ad nulla. Nemo sapiente
+                    reiciendis error!</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form>
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Blog Right -->
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Busniess Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Sciecne</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>29</span>
+                </div>
+                <div>
+                    <span>Computer Sciecne</span>
+                    <span>26</span>
+                </div>
+                <div>
+                    <span>AutoCad</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>English</span>
+                    <span>22</span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <Footer>
+        <div class="footer-1">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quos rerum eos tempore <br>ea
+                reprehenderit similique ipsum ducimus. Aspernatur, molestias!</p>
+        </div>
+        <div class="social-icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+        </div>
+        <div class="copyright">
+            <p>Copyright By Usman Arif </p>
+        </div>
+    </Footer>
+
+    <!------ Java Script -------->
+
+    <script>
+
+        let sidemenu = document.getElementById("mobilemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
